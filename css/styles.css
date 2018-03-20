@@ -1,0 +1,31 @@
+/* START: HEADER DEFINITIONS */
+#navbar-top { /* Top navigation bar (brand, search, collapsable menu) */
+  background-color: #0051E0;
+}
+#logo-img { /* Brand logo */
+  background: url('../images/logo_288x77.png') no-repeat;
+  width: 288px;
+  height: 77px;
+}
+
+#search-form { /* Search engine form */
+  width: 100%;
+  max-width: 45%;
+}
+#search-icon { /* Search engine form: Magnifier size increase */
+  font-size: 2.25rem;
+}
+
+#main-toggler-button { /* Change collapsable button color */
+  border: 1px solid #66CCFF;
+}
+#main-toggler-icon { /* Change collapsable image color */
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(102, 204, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+/* END: HEADER DEFINITIONS */
+
+/* START: NAVBAR MENU DEFINITIONS */
+#navbar-menu {
+  background-color: #66CCFF;
+}
+/* END: NAVBAR MENU DEFINITIONS */
