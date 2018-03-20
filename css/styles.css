@@ -3,9 +3,9 @@
   background-color: #0051E0;
 }
 #logo-img { /* Brand logo */
-  background: url('../images/logo_288x77.png') no-repeat;
-  width: 288px;
-  height: 77px;
+  background: url('../images/logo_144x39.png') no-repeat;
+  width: 144px;
+  height: 39px;
 }
 
 #search-form { /* Search engine form */
@@ -13,7 +13,7 @@
   max-width: 45%;
 }
 #search-icon { /* Search engine form: Magnifier size increase */
-  font-size: 2.25rem;
+  font-size: 1.25rem;
 }
 
 #main-toggler-button { /* Change collapsable button color */
