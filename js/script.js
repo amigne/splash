@@ -26,27 +26,27 @@ $(document).ready(function () {
   var engines = {
     "bing": {
       "name": "Bing",
-      "icon": "images/icon_bing_16.png",
+      "icon": "images/icon_bing_016x016.png",
       "url": "https://www.bing.com/search?q="
     },
     "ddg": {
       "name": "DuckDuckGo",
-      "icon": "images/icon_duckduckgo_16.png",
+      "icon": "images/icon_duckduckgo_016x016.png",
       "url": "https://duckduckgo.com/?q="
     },
     "ecosia": {
       "name": "Ecosia",
-      "icon": "images/icon_ecosia_16.png",
+      "icon": "images/icon_ecosia_016x016.png",
       "url": "https://www.ecosia.org/search?q="
     },
     "google": {
       "name": "Google",
-      "icon": "images/icon_google_16.png",
+      "icon": "images/icon_google_016x016.png",
       "url": "https://www.google.com/search?q="
     },
     "yahoo": {
       "name": "Yahoo!",
-      "icon": "images/icon_yahoo_16.png",
+      "icon": "images/icon_yahoo_016x016.png",
       "url": "https://search.yahoo.com/search?p="
     },
   };
