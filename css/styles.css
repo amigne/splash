@@ -8,18 +8,21 @@
   height: 39px;
 }
 
-#search-form { /* Search engine form */
+#se-form { /* Search engine form */
   width: 100%;
   max-width: 45%;
 }
-#search-engine-icon {
+#se-img-engine {
+  width: 16px;
+  height: 16px;
+}
+#se-btn-engine:hover,
+#se-btn-go:hover {
   cursor: pointer;
 }
-#search-icon { /* Search engine form: Magnifying glass size increase */
-  font-size: 1.25rem;
-}
-#search-icon:hover { /* Search engine form: Change icon on magnifying glass */;
-  cursor: pointer;
+#se-dropdown a:hover {
+  background-color: #0051E0;
+  color: #FFFFFF;
 }
 
 #main-toggler-button { /* Change collapsable button color */

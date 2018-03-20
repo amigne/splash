@@ -21,14 +21,16 @@
           <div id="logo-img" class="navbar-brand"></div>
 
           <!-- Search engine form -->
-          <form id="search-form" class="form-inline d-none d-md-inline">
-            <div id="search-input-group" class="input-group">
-              <div class="input-group-prepend">
-                <span id="search-engine-icon" class="input-group-text"><img src="images/icon_google_16.png"></span>
+          <form id="se-form" class="form-inline d-none d-md-inline">
+            <input id="se-engine" type="hidden">
+            <div id="se-input-group" class="input-group">
+              <div class="input-group-prepend dropdown" aria-labelledby="search-engine-icon">
+                <button id="se-btn-engine" type="button" class="input-group-text dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img id="se-img-engine" src=""></button>
+                <div id="se-dropdown" class="dropdown-menu"></div>
               </div>
-              <input id="search-query" type="search" class="form-control">
+              <input id="se-in-query" type="search" class="form-control" placeholder="">
               <div class="input-group-append">
-                <span id="search-icon" class="input-group-text material-icons">search</span>
+                <button id="se-btn-go" type="button" class="input-group-text"><span class="material-icons">search</span></button>
               </div>
             </div>
           </form>
