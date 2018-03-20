@@ -12,8 +12,14 @@
   width: 100%;
   max-width: 45%;
 }
-#search-icon { /* Search engine form: Magnifier size increase */
+#search-engine-icon {
+  cursor: pointer;
+}
+#search-icon { /* Search engine form: Magnifying glass size increase */
   font-size: 1.25rem;
+}
+#search-icon:hover { /* Search engine form: Change icon on magnifying glass */;
+  cursor: pointer;
 }
 
 #main-toggler-button { /* Change collapsable button color */
