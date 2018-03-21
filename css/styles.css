@@ -38,3 +38,68 @@
   background-color: #66CCFF;
 }
 /* END: NAVBAR MENU DEFINITIONS */
+
+/* START: MAIN DEFINITIONS */
+.box {
+  border: 1px solid #A0A0A0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 2px rgba(0, 0, 0, .5);
+}
+
+.box-title {
+  background-color: #A0A0A0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-left: -1px;
+  margin-right: -1px;
+  padding-right: 11px;
+  padding-left: 11px;
+  line-height: 1.75rem;
+}
+
+.box-content {
+  padding-right: 10px;
+  padding-left: 10px;
+  line-height: 1.25rem;
+}
+
+.box-article-rss {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.box-article-rss > a {
+  color: black;
+}
+.box-article-rss > a:visited {
+  color: grey;
+}
+.box-article-rss > a:hover {
+  color: #0051E0;
+  text-decoration: none;
+}
+.box-article-rss > a > .fa {
+  width: 20px;
+}
+
+
+
+.box > nav {
+  background-color: #A0A0A0;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.box-title > a {
+  color: #000000;
+}
+
+.box-title > a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* END: MAIN DEFINITIONS */

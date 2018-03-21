@@ -1,13 +1,48 @@
 $(document).ready(function () {
 
+  var boxes = [];
+
+  var boxesCfg = {
+    "1" : {
+      'type' : "rss",
+      "name" : "Le Temps - Généraliste",
+      "url" : "https://www.letemps.ch/feed",
+    },
+    "2" : {
+      "type" : "rss",
+      "name" : "RTS",
+      "url" : "http://www.rts.ch/info/toute-info/?format=rss/news",
+    }
+  };
 
   // This code will be called when the page has fully loaded
   function init() {
     window.se.init();
-//    init_se();
+
+    var id;
+    var i = boxes.length;
+    for (id in boxesCfg) {
+      var box = new Box(i, boxesCfg[id]);
+      if (box !== null && box['cfg'] != undefined && box['cfg'] != null) {
+        boxes.push(box);
+        box.process(refreshPage);
+        i++;
+      }
+    }
   }
 
+  function refreshPage() {
+    // Let's clean-up the columns
+    for (var i = 0; i < 4; i++) {
+      $('#main-col' + i).html('');
+    }
 
+    // And fill it again
+    for (i = 0; i < boxes.length; i++) {
+      var col = i % 4;
+      $('#main-col' + col).html($('#main-col' + col).html() + boxes[i].html);
+    }
+  }
 
   // MAIN
   init();
@@ -142,3 +177,83 @@ $(document).ready(function () {
 
   window.se = se;
 })(window);
+
+///////////////////////////////////////////////////////////////////////////////
+
+// CLASS Box
+
+function Box(id, cfg) {
+  this.id = id;
+  this.cfg = cfg || null;
+  this.html = '';
+}
+
+Box.prototype.process = function(callback) {
+  if (this.getType() == 'rss') {
+    var self = this;
+
+    this.rssFeed = new RssFeed(this.cfg['name'], this.cfg['url']);
+    this.rssFeed.load(function(result) {
+      var html = '';
+
+      if (!result.error) {
+        var name = self.rssFeed['name'];
+        console.log('name = ' + name);
+
+        html += '<div id="main-box-' + ("0000" + self.id).slice(-4) +
+          '" class="box">';
+        html += '<header class="box-title font-weight-bold">';
+        html += '<img class="pr-2" src="">' + name + '</a>';
+        html += '</header>';
+        html += '<section class="box-content">';
+
+        for (var i = 0; i < Math.min(result.feed.entries.length, 10); i++) {
+          var entry = result.feed.entries[i];
+          
+          html += '<article class="box-article-rss">';
+          html += '<a href="' + entry.link + '">';
+          html += '<i class="fa pr-2">&#xf096;</i>';
+          html += entry.title;
+          html += '</a>';
+          html += '</article>';
+        }
+        html += '</section>';
+        html += '<nav>';
+        html += 'NAVIGATION';
+        html += '</nav>';
+        html += '</div>';
+
+        self.html = html;
+        callback();
+      }
+    });
+  }
+}
+
+Box.prototype.getType = function() {
+  return (this.cfg && this.cfg['type']) ? this.cfg['type'].toLowerCase() : null;
+}
+
+Box.prototype.toString = function() {
+  return this.html;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+
+google.load('feeds', '1');
+
+// CLASS RssFeed
+function RssFeed(name, url) {
+  this.name = name || null;
+  this.url = url || null;
+
+  this.feed = new google.feeds.Feed(url);
+  this.result = null;
+}
+
+RssFeed.prototype.load = function(callback) {
+  this.feed.load(function(result) { 
+    self.result = result; 
+    callback(result);
+  });
+}
