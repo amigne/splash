@@ -4,15 +4,15 @@ $(document).ready(function () {
 
   var boxesCfg = {
     "1" : {
+      "type" : "rss",
+      "name" : "RTS",
+      "url" : "http://www.rts.ch/info/toute-info/?format=rss/news",
+    },
+    "2" : {
       'type' : "rss",
       "name" : "Le Temps - Généraliste",
       "url" : "https://www.letemps.ch/feed",
     },
-    "2" : {
-      "type" : "rss",
-      "name" : "RTS",
-      "url" : "http://www.rts.ch/info/toute-info/?format=rss/news",
-    }
   };
 
   // This code will be called when the page has fully loaded
@@ -42,6 +42,7 @@ $(document).ready(function () {
       var col = i % 4;
       $('#main-col' + col).html($('#main-col' + col).html() + boxes[i].html);
     }
+
   }
 
   // MAIN
@@ -212,14 +213,14 @@ Box.prototype.process = function(callback) {
           
           html += '<article class="box-article-rss">';
           html += '<a href="' + entry.link + '">';
-          html += '<i class="fa pr-2">&#xf096;</i>';
-          html += entry.title;
+          html += '<span class="material-icons rp-2 bullet">chevron_right</span>';
+          html += '<span class="title">' + entry.title + '</span>';
           html += '</a>';
           html += '</article>';
         }
         html += '</section>';
         html += '<nav>';
-        html += 'NAVIGATION';
+        html += '&nbsp;';
         html += '</nav>';
         html += '</div>';
 

@@ -46,7 +46,7 @@
   border-top-right-radius: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
-  box-shadow: 5px 5px 2px rgba(0, 0, 0, .5);
+/*  box-shadow: 5px 5px 2px rgba(0, 0, 0, .5);*/
 }
 
 .box-title {
@@ -81,10 +81,12 @@
   color: #0051E0;
   text-decoration: none;
 }
-.box-article-rss > a > .fa {
-  width: 20px;
+.box-article-rss > a > span.bullet {
+  vertical-align: middle;
 }
-
+.box-article-rss > a > span.title {
+  vertical-align: middle;
+}
 
 
 .box > nav {
@@ -100,6 +102,10 @@
 .box-title > a:hover {
   color: #000000;
   text-decoration: none;
+}
+
+.main-cols .material-icons {
+
 }
 
 /* END: MAIN DEFINITIONS */
