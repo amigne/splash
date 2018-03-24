@@ -3,25 +3,25 @@
     "Accueil": {
       "1" : {
         "type" : "rss",
-        "name" : "RTS",
+        "name" : "RTS | Généraliste",
         "url" : "http://www.rts.ch/info/toute-info/?format=rss/news",
         "icon" : "images/icon_rts.ch_016x016.png"
       },
       "2" : {
         "type" : "rss",
-        "name" : "Le Temps - Généraliste",
+        "name" : "Le Temps | Généraliste",
         "url" : "https://www.letemps.ch/feed",
         "icon" : "images/icon_letemps.ch_016x016.png"
       },
       "3" : {
         "type" : "rss",
-        "name" : "Le Matin - Accueil",
+        "name" : "Le Matin | Accueil",
         "url" : "https://www.lematin.ch/rss.html",
         "icon" : "images/icon_lematin.ch_016x016.png"
       },
       "4" : {
         "type" : "rss",
-        "name" : "20 Minutes - La Une",
+        "name" : "20 Minutes | La Une",
         "url" : "http://api.20min.ch/rss/ro/view/59",
         "icon" : "images/icon_20min.ch_016x016.png"
       },
@@ -41,25 +41,25 @@
     "Suisse": {
       "7" : {
         "type" : "rss",
-        "name" : "RTS - Suisse",
+        "name" : "RTS | Suisse",
         "url" : "http://www.rts.ch/info/suisse/?format=rss/news",
         "icon" : "images/icon_rts.ch_016x016.png"
       },
       "8" : {
         "type" : "rss",
-        "name" : "Le Temps - Suisse",
+        "name" : "Le Temps | Suisse",
         "url" : "https://www.letemps.ch/taxonomy/term/44/feed",
         "icon" : "images/icon_letemps.ch_016x016.png"
       },
       "9" : {
         "type" : "rss",
-        "name" : "Le Matin - Suisse",
+        "name" : "Le Matin | Suisse",
         "url" : "https://www.lematin.ch/suisse/rss.html",
         "icon" : "images/icon_lematin.ch_016x016.png"
       },
       "10" : {
         "type" : "rss",
-        "name" : "20 Minutes - Suisse",
+        "name" : "20 Minutes | Suisse",
         "url" : "http://api.20min.ch/rss/ro/view/470",
         "icon" : "images/icon_20min.ch_016x016.png"
       },
@@ -79,25 +79,25 @@
     "International": {
       "13" : {
         "type" : "rss",
-        "name" : "RTS - Monde",
+        "name" : "RTS | Monde",
         "url" : "http://www.rts.ch/info/monde/?format=rss/news",
         "icon" : "images/icon_rts.ch_016x016.png"
       },
       "14" : {
         "type" : "rss",
-        "name" : "Le Temps - International",
+        "name" : "Le Temps | International",
         "url" : "https://www.letemps.ch/taxonomy/term/46/feed",
         "icon" : "images/icon_letemps.ch_016x016.png"
       },
       "15" : {
         "type" : "rss",
-        "name" : "Le Matin - Monde",
+        "name" : "Le Matin | Monde",
         "url" : "https://www.lematin.ch/monde/rss.html",
         "icon" : "images/icon_lematin.ch_016x016.png"
       },
       "16" : {
         "type" : "rss",
-        "name" : "20 Minutes - Monde",
+        "name" : "20 Minutes | Monde",
         "url" : "http://api.20min.ch/rss/ro/view/472",
         "icon" : "images/icon_20min.ch_016x016.png"
       },
@@ -113,6 +113,235 @@
         "url" : "https://www.24heures.ch/monde/rss.html",
         "icon" : "images/icon_24heures.ch_016x016.png"
       }
+    },
+    "Sports": {
+      "19" : {
+        "type" : "rss",
+        "name" : "RTS | Sports",
+        "url" : "http://www.rts.ch/sport/?format=rss/news",
+        "icon" : "images/icon_rts.ch_016x016.png"
+      },
+      "20" : {
+        "type" : "rss",
+        "name" : "Le Temps | Sports",
+        "url" : "https://www.letemps.ch/taxonomy/term/4/feed",
+        "icon" : "images/icon_letemps.ch_016x016.png"
+      },
+      "21" : {
+        "type" : "rss",
+        "name" : "Le Matin | Sports",
+        "url" : "https://www.lematin.ch/sports/rss.html",
+        "icon" : "images/icon_lematin.ch_016x016.png"
+      },
+      "22" : {
+        "type" : "rss",
+        "name" : "20 Minutes | Sports",
+        "url" : "http://api.20min.ch/rss/ro/view/149",
+        "icon" : "images/icon_20min.ch_016x016.png"
+      },
+      "23" : {
+        "type" : "rss",
+        "name" : "Tribune de Genève | Sports",
+        "url" : "https://www.tdg.ch/sports/rss.html",
+        "icon" : "images/icon_tdg.ch_016x016.png"
+      },
+      "24" : {
+        "type" : "rss",
+        "name" : "24 Heures | Sports",
+        "url" : "https://www.24heures.ch/sports/rss.html",
+        "icon" : "images/icon_24heures.ch_016x016.png"
+      }
+    },
+    "People": {
+      "25" : {
+        "type" : "rss",
+        "name" : "Le Matin | People",
+        "url" : "https://www.lematin.ch/people/rss.html",
+        "icon" : "images/icon_lematin.ch_016x016.png"
+      },
+      "26" : {
+        "type" : "rss",
+        "name" : "20 Minutes | People",
+        "url" : "http://api.20min.ch/rss/ro/view/147",
+        "icon" : "images/icon_20min.ch_016x016.png"
+      },
+      "27" : {
+        "type" : "rss",
+        "name" : "Tribune de Genève | People",
+        "url" : "https://www.tdg.ch/people/rss.html",
+        "icon" : "images/icon_tdg.ch_016x016.png"
+      },
+      "28" : {
+        "type" : "rss",
+        "name" : "24 Heures | People",
+        "url" : "https://www.24heures.ch/people/rss.html",
+        "icon" : "images/icon_24heures.ch_016x016.png"
+      }
+    },
+    "Économie": {
+      "29" : {
+        "type" : "rss",
+        "name" : "RTS | Économie",
+        "url" : "http://www.rts.ch/info/economie/?format=rss/news",
+        "icon" : "images/icon_rts.ch_016x016.png"
+      },
+      "30" : {
+        "type" : "rss",
+        "name" : "Le Temps | Économie",
+        "url" : "https://www.letemps.ch/taxonomy/term/7/feed",
+        "icon" : "images/icon_letemps.ch_016x016.png"
+      },
+      "31" : {
+        "type" : "rss",
+        "name" : "Le Matin | Économie",
+        "url" : "https://www.lematin.ch/economie/rss.html",
+        "icon" : "images/icon_lematin.ch_016x016.png"
+      },
+      "32" : {
+        "type" : "rss",
+        "name" : "20 Minutes | Économie",
+        "url" : "http://api.20min.ch/rss/ro/view/165",
+        "icon" : "images/icon_20min.ch_016x016.png"
+      },
+      "33" : {
+        "type" : "rss",
+        "name" : "Tribune de Genève | Économie",
+        "url" : "https://www.tdg.ch/economie/rss.html",
+        "icon" : "images/icon_tdg.ch_016x016.png"
+      },
+      "34" : {
+        "type" : "rss",
+        "name" : "24 Heures | Économie",
+        "url" : "https://www.24heures.ch/economie/rss.html",
+        "icon" : "images/icon_24heures.ch_016x016.png"
+      }
+    },
+    "Culture": {
+      "35" : {
+        "type" : "rss",
+        "name" : "Le Temps | Culture",
+        "url" : "https://www.letemps.ch/taxonomy/term/30/feed",
+        "icon" : "images/icon_letemps.ch_016x016.png"
+      },
+      "36" : {
+        "type" : "rss",
+        "name" : "Tribune de Genève | Culture",
+        "url" : "https://www.tdg.ch/culture/rss.html",
+        "icon" : "images/icon_tdg.ch_016x016.png"
+      },
+      "37" : {
+        "type" : "rss",
+        "name" : "24 Heures | Culture",
+        "url" : "https://www.24heures.ch/culture/rss.html",
+        "icon" : "images/icon_24heures.ch_016x016.png"
+      }
+    },
+    "High-Tech": {
+      "1" : {
+        "type" : "rss",
+        "name" : "Le Matin | High-Tech",
+        "url" : "https://www.lematin.ch/high-tech/rss.html",
+        "icon" : "images/icon_lematin.ch_016x016.png"
+      },
+      "2" : {
+        "type" : "rss",
+        "name" : "20 Minutes | Faits divers",
+        "url" : "http://api.20min.ch/rss/ro/view/143",
+        "icon" : "images/icon_20min.ch_016x016.png"
+      },
+      "3" : {
+        "type" : "rss",
+        "name" : "Tribune de Genève | High-Tech",
+        "url" : "https://www.tdg.ch/high-tech/rss.html",
+        "icon" : "images/icon_tdg.ch_016x016.png"
+      },
+      "4" : {
+        "type" : "rss",
+        "name" : "24 Heures | High-Tech",
+        "url" : "https://www.24heures.ch/high-tech/rss.html",
+        "icon" : "images/icon_24heures.ch_016x016.png"
+      }
+    },
+    "Divers": {
+      "1000" : {
+        "type" : "rss",
+        "name" : "Le Temps | Opinions",
+        "url" : "https://www.letemps.ch/taxonomy/term/34/feed",
+        "icon" : "images/icon_letemps.ch_016x016.png"
+      },
+      "1050" : {
+        "type" : "rss",
+        "name" : "Le Matin | Santé",
+        "url" : "https://www.lematin.ch/sante-environnement/rss.html",
+        "icon" : "images/icon_lematin.ch_016x016.png"
+      },
+      "1100" : {
+        "type" : "rss",
+        "name" : "Le Matin | Loisirs",
+        "url" : "https://www.lematin.ch/loisirs/rss.html",
+        "icon" : "images/icon_lematin.ch_016x016.png"
+      },
+      "1150" : {
+        "type" : "rss",
+        "name" : "Tribune de Genève | Auto-moto",
+        "url" : "https://www.tdg.ch/vivre/rss.html",
+        "icon" : "images/icon_tdg.ch_016x016.png"
+      },
+      "1151" : {
+        "type" : "rss",
+        "name" : "24 Heures | Auto-moto",
+        "url" : "https://www.24heures.ch/vivre/rss.html",
+        "icon" : "images/icon_24heures.ch_016x016.png"
+      },
+      "1200" : {
+        "type" : "rss",
+        "name" : "Le Matin | Faits divers",
+        "url" : "https://www.lematin.ch/faits-divers/rss.html",
+        "icon" : "images/icon_lematin.ch_016x016.png"
+      },
+      "1201" : {
+        "type" : "rss",
+        "name" : "20 Minutes | Faits divers",
+        "url" : "http://api.20min.ch/rss/ro/view/474",
+        "icon" : "images/icon_20min.ch_016x016.png"
+      },
+      "1300" : {
+        "type" : "rss",
+        "name" : "Le Temps | Société",
+        "url" : "https://www.letemps.ch/taxonomy/term/31/feed",
+        "icon" : "images/icon_letemps.ch_016x016.png"
+      },
+      "1301" : {
+        "type" : "rss",
+        "name" : "Le Matin | Société",
+        "url" : "https://www.lematin.ch/societe/rss.html",
+        "icon" : "images/icon_lematin.ch_016x016.png"
+      },
+      "1400" : {
+        "type" : "rss",
+        "name" : "Le Matin | Auto-moto",
+        "url" : "https://www.lematin.ch/auto-moto/rss.html",
+        "icon" : "images/icon_lematin.ch_016x016.png"
+      },
+      "1401" : {
+        "type" : "rss",
+        "name" : "Tribune de Genève | Auto-moto",
+        "url" : "https://www.tdg.ch/auto-moto/rss.html",
+        "icon" : "images/icon_tdg.ch_016x016.png"
+      },
+      "1402" : {
+        "type" : "rss",
+        "name" : "24 Heures | Auto-moto",
+        "url" : "https://www.24heures.ch/auto-moto/rss.html",
+        "icon" : "images/icon_24heures.ch_016x016.png"
+      },
+      "1500" : {
+        "type" : "rss",
+        "name" : "Le Temps | Lifestyle",
+        "url" : "https://www.letemps.ch/taxonomy/term/32/feed",
+        "icon" : "images/icon_letemps.ch_016x016.png"
+      }
     }
   }
 }
+
