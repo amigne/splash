@@ -1,0 +1,118 @@
+{
+  "pages": {
+    "Accueil": {
+      "1" : {
+        "type" : "rss",
+        "name" : "RTS",
+        "url" : "http://www.rts.ch/info/toute-info/?format=rss/news",
+        "icon" : "images/icon_rts.ch_016x016.png"
+      },
+      "2" : {
+        "type" : "rss",
+        "name" : "Le Temps - Généraliste",
+        "url" : "https://www.letemps.ch/feed",
+        "icon" : "images/icon_letemps.ch_016x016.png"
+      },
+      "3" : {
+        "type" : "rss",
+        "name" : "Le Matin - Accueil",
+        "url" : "https://www.lematin.ch/rss.html",
+        "icon" : "images/icon_lematin.ch_016x016.png"
+      },
+      "4" : {
+        "type" : "rss",
+        "name" : "20 Minutes - La Une",
+        "url" : "http://api.20min.ch/rss/ro/view/59",
+        "icon" : "images/icon_20min.ch_016x016.png"
+      },
+      "5" : {
+        "type" : "rss",
+        "name" : "Tribune de Genève | Accueil",
+        "url" : "https://www.tdg.ch/rss.html",
+        "icon" : "images/icon_tdg.ch_016x016.png"
+      },
+      "6" : {
+        "type" : "rss",
+        "name" : "24 Heures | Accueil",
+        "url" : "https://www.24heures.ch/rss.html",
+        "icon" : "images/icon_24heures.ch_016x016.png"
+      }
+    },
+    "Suisse": {
+      "7" : {
+        "type" : "rss",
+        "name" : "RTS - Suisse",
+        "url" : "http://www.rts.ch/info/suisse/?format=rss/news",
+        "icon" : "images/icon_rts.ch_016x016.png"
+      },
+      "8" : {
+        "type" : "rss",
+        "name" : "Le Temps - Suisse",
+        "url" : "https://www.letemps.ch/taxonomy/term/44/feed",
+        "icon" : "images/icon_letemps.ch_016x016.png"
+      },
+      "9" : {
+        "type" : "rss",
+        "name" : "Le Matin - Suisse",
+        "url" : "https://www.lematin.ch/suisse/rss.html",
+        "icon" : "images/icon_lematin.ch_016x016.png"
+      },
+      "10" : {
+        "type" : "rss",
+        "name" : "20 Minutes - Suisse",
+        "url" : "http://api.20min.ch/rss/ro/view/470",
+        "icon" : "images/icon_20min.ch_016x016.png"
+      },
+      "11" : {
+        "type" : "rss",
+        "name" : "Tribune de Genève | Suisse",
+        "url" : "https://www.tdg.ch/suisse/rss.html",
+        "icon" : "images/icon_tdg.ch_016x016.png"
+      },
+      "12" : {
+        "type" : "rss",
+        "name" : "24 Heures | Suisse",
+        "url" : "https://www.24heures.ch/suisse/rss.html",
+        "icon" : "images/icon_24heures.ch_016x016.png"
+      }
+    },
+    "International": {
+      "13" : {
+        "type" : "rss",
+        "name" : "RTS - Monde",
+        "url" : "http://www.rts.ch/info/monde/?format=rss/news",
+        "icon" : "images/icon_rts.ch_016x016.png"
+      },
+      "14" : {
+        "type" : "rss",
+        "name" : "Le Temps - International",
+        "url" : "https://www.letemps.ch/taxonomy/term/46/feed",
+        "icon" : "images/icon_letemps.ch_016x016.png"
+      },
+      "15" : {
+        "type" : "rss",
+        "name" : "Le Matin - Monde",
+        "url" : "https://www.lematin.ch/monde/rss.html",
+        "icon" : "images/icon_lematin.ch_016x016.png"
+      },
+      "16" : {
+        "type" : "rss",
+        "name" : "20 Minutes - Monde",
+        "url" : "http://api.20min.ch/rss/ro/view/472",
+        "icon" : "images/icon_20min.ch_016x016.png"
+      },
+      "17" : {
+        "type" : "rss",
+        "name" : "Tribune de Genève | Monde",
+        "url" : "https://www.tdg.ch/monde/rss.html",
+        "icon" : "images/icon_tdg.ch_016x016.png"
+      },
+      "18" : {
+        "type" : "rss",
+        "name" : "24 Heures | Monde",
+        "url" : "https://www.24heures.ch/monde/rss.html",
+        "icon" : "images/icon_24heures.ch_016x016.png"
+      }
+    }
+  }
+}

@@ -31,11 +31,21 @@
 #main-toggler-icon { /* Change collapsable image color */
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(102, 204, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
+
+#menu > .current-page {
+  font-weight: bold;
+}
 /* END: HEADER DEFINITIONS */
 
 /* START: NAVBAR MENU DEFINITIONS */
 #navbar-menu {
   background-color: #66CCFF;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#menu {
+  text-align: center;
 }
 /* END: NAVBAR MENU DEFINITIONS */
 
@@ -46,7 +56,7 @@
   border-top-right-radius: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
-/*  box-shadow: 5px 5px 2px rgba(0, 0, 0, .5);*/
+  box-shadow: 5px 5px 2px rgba(0, 0, 0, .5);
 }
 
 .box-title {
@@ -55,9 +65,18 @@
   border-top-right-radius: 15px;
   margin-left: -1px;
   margin-right: -1px;
+  margin-top: 0px;
   padding-right: 11px;
   padding-left: 11px;
-  line-height: 1.75rem;
+  line-height: 2rem;
+}
+.box-title > img {
+  height: 16px;
+  max-height: 16px;
+  vertical-align: middle;
+}
+.box-title > span.name {
+  vertical-align: middle;
 }
 
 .box-content {
@@ -88,7 +107,6 @@
   vertical-align: middle;
 }
 
-
 .box > nav {
   background-color: #A0A0A0;
   padding-right: 10px;
@@ -98,7 +116,6 @@
 .box-title > a {
   color: #000000;
 }
-
 .box-title > a:hover {
   color: #000000;
   text-decoration: none;
