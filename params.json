@@ -76,6 +76,38 @@
         "icon" : "images/icon_24heures.ch_016x016.png"
       }
     },
+    "Régions": {
+      "1" : {
+        "type" : "rss",
+        "name" : "20 Minutes | Romandie",
+        "url" : "http://api.20min.ch/rss/ro/view/468",
+        "icon" : "images/icon_20min.ch_016x016.png"
+      },
+      "2" : {
+        "type" : "rss",
+        "name" : "20 Minutes | Vaud",
+        "url" : "http://api.20min.ch/rss/ro/view/464",
+        "icon" : "images/icon_20min.ch_016x016.png"
+      },
+      "3" : {
+        "type" : "rss",
+        "name" : "24 Heures | Vaud",
+        "url" : "https://www.24heures.ch/vaud-regions/rss.html",
+        "icon" : "images/icon_24heures.ch_016x016.png"
+      },
+      "4" : {
+        "type" : "rss",
+        "name" : "20 Minutes | Genève",
+        "url" : "http://api.20min.ch/rss/ro/view/466",
+        "icon" : "images/icon_20min.ch_016x016.png"
+      },
+      "5" : {
+        "type" : "rss",
+        "name" : "Tribune de Genève | Genève",
+        "url" : "https://www.tdg.ch/geneve/rss.html",
+        "icon" : "images/icon_tdg.ch_016x016.png"
+      }
+    },
     "International": {
       "13" : {
         "type" : "rss",
@@ -236,6 +268,26 @@
         "icon" : "images/icon_24heures.ch_016x016.png"
       }
     },
+    "Sciences": {
+      "1" : {
+        "type" : "rss",
+        "name" : "Le Temps | Sciences",
+        "url" : "https://www.letemps.ch/taxonomy/term/29/feed",
+        "icon" : "images/icon_letemps.ch_016x016.png"
+      },
+      "3" : {
+        "type" : "rss",
+        "name" : "Tribune de Genève | Savoirs",
+        "url" : "https://www.tdg.ch/savoirs/rss.html",
+        "icon" : "images/icon_tdg.ch_016x016.png"
+      },
+      "4" : {
+        "type" : "rss",
+        "name" : "24 Heures | Savoirs",
+        "url" : "https://www.24heures.ch/savoirs/rss.html",
+        "icon" : "images/icon_24heures.ch_016x016.png"
+      }
+    },
     "High-Tech": {
       "1" : {
         "type" : "rss",
@@ -262,6 +314,8 @@
         "icon" : "images/icon_24heures.ch_016x016.png"
       }
     },
+
+
     "Divers": {
       "1000" : {
         "type" : "rss",
